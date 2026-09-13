@@ -1,0 +1,22 @@
+{
+  "redirects": [
+    {
+      "source": "http://molytrixpetrochem.com/:path*",
+      "destination": "https://www.molytrixpetrochem.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "http://www.molytrixpetrochem.com/:path*",
+      "destination": "https://www.molytrixpetrochem.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "https://molytrixpetrochem.com/:path*",
+      "destination": "https://www.molytrixpetrochem.com/:path*",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
